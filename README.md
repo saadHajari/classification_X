@@ -55,9 +55,9 @@ This project provides a Python-based solution for two main use cases:
 ## Project Structure
 
 ```plaintext
-x_classification/
+classification_X/
 ├── data_x_posts.json      # Example dataset with posts
-├── x_classification.py    # Main script for filtering and ML classification
+├── classification_X.py    # Main script for filtering and ML classification
 ├── README.md              # Project documentation
 ├── requirements.txt       # Python dependencies          
 
@@ -106,7 +106,6 @@ Visualizations
 
 The script generates bar plots comparing model performances.
 
-### Example Plot
 
 Algorithms and Vectorization Techniques
 ---------------------------------------
@@ -128,14 +127,13 @@ Update Dangerous Keywords
 
 Modify the contains\_dangerous\_keywords function in x\_classification.py:
 
-Plain
 
-codedangerous_keywords = ['attack', 'violence', 'bomb', 'hacking', 'danger']   `
+***codedangerous_keywords = ['attack', 'violence', 'bomb', 'hacking', 'danger']***  `
 
 Add Suspicious Domains
 ----------------------
 
-Update the contains\_suspicious\_links function:
+Update the contains\_suspicious\_links function or you can use **regex** ...
 
 
 Add a New ML Model
