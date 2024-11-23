@@ -96,6 +96,8 @@ Results Table
 
 A sample table summarizing the results:
 
+
+
 ![image](https://github.com/user-attachments/assets/4680a6c0-07d3-4c23-9cbd-98ef39f38dac)
 
 
@@ -161,23 +163,23 @@ Future Features
 
 To further enhance the project, consider adding the following feature:
 
-**Generic Program or API with Endpoints**
-**Develop a generic program or RESTful API with endpoints to:**
+**Generic Program or API with Endpoints** ✅
+**Develop a generic program or RESTful API with endpoints to:** ✅
 
-- Compare different machine learning models.
-- Switch between TF-IDF and Bag of Words vectorization techniques.
-- Serve predictions for new text data.
+- Compare different machine learning models. ✅
+- Switch between TF-IDF and Bag of Words vectorization techniques. ✅
+- Serve predictions for new text data. ✅
 
 
 **Example API Endpoints**
 
-- **GET /models:** Retrieve a list of available ML models and their metrics.
-- **POST /predict:** Accept a text input and return predictions from a specified model and vector type.
-- **GET /compare:**  Generate a comparison chart of model performances for both vectorization techniques.
+- **GET /models:** Retrieve a list of available ML models and their metrics. ✅
+- **POST /predict:** Accept a text input and return predictions from a specified model and vector type. ✅
+- **GET /compare:**  Generate a comparison chart of model performances for both vectorization techniques. ✅
 
   This addition would make the project highly extensible and allow users to interact programmatically with the machine learning pipeline.
 
 License
 =======
 
-This project is licensed under the **MIT License**. See the LICENSE file for full details.
+This project is licensed under the **Apache License 2.0**. See the LICENSE file for full details.
