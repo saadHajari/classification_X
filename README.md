@@ -7,8 +7,10 @@ For any questions or feedback:
 
 *   **Email**: saadhajari10@gmail.com
     
-*   **Buy Me a coffe here --->**: **https://www.paypal.com/donate/?hosted_button_id=5URJR262Y77BQ**
+*   **Buy Me a coffee here --->**: **https://www.paypal.com/donate/?hosted_button_id=5URJR262Y77BQ**
 
+
+![x](https://github.com/user-attachments/assets/6f76df4a-f6b6-477f-92e4-684caa575ce8) 
 
 ## Overview
 
@@ -22,7 +24,6 @@ This project provides a Python-based solution for two main use cases:
 2. **Text Classification using Machine Learning**:
    - Apply various Machine Learning algorithms to classify text data.
    - Compare two vectorization techniques: **TF-IDF** and **Bag of Words**.
-
 
 
 ---
@@ -67,6 +68,7 @@ x_classification/
 1. **git clone** https://github.com/your_username/classification_X.git
 2.  **cd classification_X**
 3.  **pip install -r requirements.txt**
+4.  **python classification_X.py**
 
 
 
@@ -94,6 +96,7 @@ Results Table
 
 A sample table summarizing the results:
 
+![image](https://github.com/user-attachments/assets/4680a6c0-07d3-4c23-9cbd-98ef39f38dac)
 
 
 Visualizations
@@ -123,7 +126,9 @@ Update Dangerous Keywords
 
 Modify the contains\_dangerous\_keywords function in x\_classification.py:
 
-Plain textANTLR4BashCC#CSSCoffeeScriptCMakeDartDjangoDockerEJSErlangGitGoGraphQLGroovyHTMLJavaJavaScriptJSONJSXKotlinLaTeXLessLuaMakefileMarkdownMATLABMarkupObjective-CPerlPHPPowerShell.propertiesProtocol BuffersPythonRRubySass (Sass)Sass (Scss)SchemeSQLShellSwiftSVGTSXTypeScriptWebAssemblyYAMLXML`   pythonCopy codedangerous_keywords = ['attack', 'violence', 'bomb', 'hacking', 'danger']   `
+Plain
+
+codedangerous_keywords = ['attack', 'violence', 'bomb', 'hacking', 'danger']   `
 
 Add Suspicious Domains
 ----------------------
@@ -150,6 +155,27 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
     
 *   Submit a pull request with detailed changes.
     
+
+Future Features
+============
+
+To further enhance the project, consider adding the following feature:
+
+**Generic Program or API with Endpoints**
+**Develop a generic program or RESTful API with endpoints to:**
+
+- Compare different machine learning models.
+- Switch between TF-IDF and Bag of Words vectorization techniques.
+- Serve predictions for new text data.
+
+
+**Example API Endpoints**
+
+- **GET /models:** Retrieve a list of available ML models and their metrics.
+- **POST /predict:** Accept a text input and return predictions from a specified model and vector type.
+- **GET /compare:**  Generate a comparison chart of model performances for both vectorization techniques.
+
+  This addition would make the project highly extensible and allow users to interact programmatically with the machine learning pipeline.
 
 License
 =======
